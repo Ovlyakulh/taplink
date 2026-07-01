@@ -9,6 +9,7 @@ body {
 }
 
 .page-wrapper {
+  overflow: hidden; /* тут важное своейства  */
   max-width: 375px;
   margin: 0 auto;
   border-radius: 20px;
@@ -37,4 +38,42 @@ body {
   line-height: 19px;
   font-weight: 300;
   font-size: 16px;
+}
+
+.user-avatart {
+  object-fit: cover;
+  border: 4px solid #fffefe;
+  border-radius: 50%;
+}
+
+.user {
+  margin: 0 auto;
+  margin-top: -79px;
+  text-align: center;
+  border-radius: 10px;
+  width: 300px;
+  /* height: 100px; */
+  box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.05);
+  background: #fff;
+  font-weight: 500;
+  padding-bottom: 20px;
+}
+
+.user-name {
+  margin-top: 8px;
+  margin-bottom: 4px;
+  font-size: 16px;
+  color: #000;
+}
+
+.user-description {
+  font-style: italic;
+  font-size: 14px;
+  color: #7b7a7a;
+  margin-bottom: 21px;
+}
+
+.container {
+  max-width: 400px;
+  margin: 0 auto;
 }
