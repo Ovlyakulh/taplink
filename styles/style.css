@@ -77,3 +77,66 @@ body {
   max-width: 400px;
   margin: 0 auto;
 }
+
+.card {
+  margin: 12px auto;
+  border-radius: 10px;
+  width: 300px;
+  /* height: 100px; */
+  box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.05);
+  background: #fff;
+  padding: 20px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  max-width: 260px;
+  gap: 10px;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 1;
+  background-color: #000;
+  height: 40px;
+  width: 100%;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+  gap: 10px;
+  color: #fff;
+  margin-bottom: 6px;
+}
+
+.button-text {
+  font-size: 12px;
+}
+
+.button.vk {
+  background-color: #0077ff;
+}
+
+.button.tg {
+  background-color: #24a1de;
+}
+
+.button.yt {
+  background-color: #ff0000;
+}
+
+
+.button.github {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button.lebenslauf {
+  background-color: #ff0000;
+}
